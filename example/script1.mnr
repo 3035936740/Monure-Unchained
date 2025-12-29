@@ -1,0 +1,49 @@
+
+BPM: 100
+
+[1:Piano]
+D5 A5 B5 4 A5 4 G5 A5 G5 F5 D5 16
+D5 A5 B5 4 A5 4 G5 A5 C6 D6 B5 16
+
+[1:Chord]
+D5_F5_A5_C6 32
+"""
+
+"""BPM: 120
+DIV: 196
+VOL: 80
+
+[Pattern] # Pattern 1
+[1:Piano]
+0 C4 32
+3 G4 32
+E4 16
+48 G#4_C5 16
+F4 32
+R
+C5 128
+[2:Piano]
+0 C4_E4_G4 64
+
+[Pattern] # Pattern 2
+DIV: 96
+BPM: 128
+[1:Piano]
+0 C4 32
+3 G4 32
+[2:String]
+<
+Source: string_like.wav
+Pitch: C5
+Test: 666
+>
+0 C4_E4_G4 64
+
+[Pattern] # Pattern 3
+[1:Piano]
+0 C4 32
+
+[Pattern]
+[1:Piano]
+BPM: 150
+0 C 64 80
